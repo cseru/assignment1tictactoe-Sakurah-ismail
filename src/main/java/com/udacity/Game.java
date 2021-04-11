@@ -176,11 +176,11 @@ public class Game {
                 {
                     return "O wins";
                 }
-        for(int i=0;i<3;i++)
+        for(int j=0;j<3;j++)
         {
-            for(j=0;j<3;j++)
+            for(int k=0;k<3;k++)
             {
-                if(grid[i][j] == '-')
+                if(grid[j][k] == '-')
                 return result;
             }
 
